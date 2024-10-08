@@ -5,16 +5,10 @@ public class Veiculo {
     public String modelo;
     public int anoDeFabricacao;
 
-    public void setInformacoesDoVeiculo(String marca, String Modelo, int anoDeFabricacao) {
+    public void setInformacoesDoVeiculo(String marca, String modelo, int anoDeFabricacao) {
         this.marca = marca;
         this.modelo = modelo;
         this.anoDeFabricacao = anoDeFabricacao;
-    }
-
-    private void mostraFichaTecnica() {
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Ano de Fabricação: " + anoDeFabricacao);
     }
 
     public String getFichaTecnica() {
